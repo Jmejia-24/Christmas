@@ -11,6 +11,17 @@
 		C8B93BFD2960B9E400A68B0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B93BFC2960B9E400A68B0F /* ContentView.swift */; };
 		C8B93BFF2960B9E500A68B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B93BFE2960B9E500A68B0F /* Assets.xcassets */; };
 		C8B93C022960B9E500A68B0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B93C012960B9E500A68B0F /* Preview Assets.xcassets */; };
+		C8B93C0A2960BB0D00A68B0F /* SnowParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = C8B93C092960BB0D00A68B0F /* SnowParticle.sks */; };
+		C8B93C0D2960BB3B00A68B0F /* Garland.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B93C0C2960BB3B00A68B0F /* Garland.swift */; };
+		C8B93C102960BB7300A68B0F /* ChristmasBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B93C0F2960BB7300A68B0F /* ChristmasBall.swift */; };
+		C8B93C132960BBA200A68B0F /* EvePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B93C122960BBA200A68B0F /* EvePattern.swift */; };
+		C8B93C152960BBB800A68B0F /* Trunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B93C142960BBB800A68B0F /* Trunk.swift */; };
+		C8B93C172960BBCB00A68B0F /* Eve.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B93C162960BBCB00A68B0F /* Eve.swift */; };
+		C8B93C192960BBE500A68B0F /* EveSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B93C182960BBE500A68B0F /* EveSection.swift */; };
+		C8B93C1C2960BC0900A68B0F /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B93C1B2960BC0900A68B0F /* CGFloat.swift */; };
+		C8B93C1E2960BC1C00A68B0F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B93C1D2960BC1C00A68B0F /* Color.swift */; };
+		C8B93C212960BC7900A68B0F /* GlowText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B93C202960BC7900A68B0F /* GlowText.swift */; };
+		C8B93C232960BC8B00A68B0F /* Snow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B93C222960BC8B00A68B0F /* Snow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		C8B93BFC2960B9E400A68B0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C8B93BFE2960B9E500A68B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8B93C012960B9E500A68B0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8B93C092960BB0D00A68B0F /* SnowParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SnowParticle.sks; sourceTree = "<group>"; };
+		C8B93C0C2960BB3B00A68B0F /* Garland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garland.swift; sourceTree = "<group>"; };
+		C8B93C0F2960BB7300A68B0F /* ChristmasBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasBall.swift; sourceTree = "<group>"; };
+		C8B93C122960BBA200A68B0F /* EvePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvePattern.swift; sourceTree = "<group>"; };
+		C8B93C142960BBB800A68B0F /* Trunk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trunk.swift; sourceTree = "<group>"; };
+		C8B93C162960BBCB00A68B0F /* Eve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eve.swift; sourceTree = "<group>"; };
+		C8B93C182960BBE500A68B0F /* EveSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EveSection.swift; sourceTree = "<group>"; };
+		C8B93C1B2960BC0900A68B0F /* CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		C8B93C1D2960BC1C00A68B0F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		C8B93C202960BC7900A68B0F /* GlowText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowText.swift; sourceTree = "<group>"; };
+		C8B93C222960BC8B00A68B0F /* Snow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +73,12 @@
 		C8B93BF92960B9E400A68B0F /* Christmas */ = {
 			isa = PBXGroup;
 			children = (
+				C8B93C082960BAF100A68B0F /* Sources */,
+				C8B93C1F2960BC6400A68B0F /* Helper */,
+				C8B93C1A2960BBFB00A68B0F /* Extension */,
+				C8B93C112960BB9400A68B0F /* NewYear */,
+				C8B93C0E2960BB4F00A68B0F /* Balls */,
+				C8B93C0B2960BB2C00A68B0F /* Garland */,
 				C8B93BFA2960B9E400A68B0F /* ChristmasApp.swift */,
 				C8B93BFC2960B9E400A68B0F /* ContentView.swift */,
 				C8B93BFE2960B9E500A68B0F /* Assets.xcassets */,
@@ -65,6 +93,59 @@
 				C8B93C012960B9E500A68B0F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8B93C082960BAF100A68B0F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C8B93C092960BB0D00A68B0F /* SnowParticle.sks */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C8B93C0B2960BB2C00A68B0F /* Garland */ = {
+			isa = PBXGroup;
+			children = (
+				C8B93C0C2960BB3B00A68B0F /* Garland.swift */,
+			);
+			path = Garland;
+			sourceTree = "<group>";
+		};
+		C8B93C0E2960BB4F00A68B0F /* Balls */ = {
+			isa = PBXGroup;
+			children = (
+				C8B93C0F2960BB7300A68B0F /* ChristmasBall.swift */,
+			);
+			path = Balls;
+			sourceTree = "<group>";
+		};
+		C8B93C112960BB9400A68B0F /* NewYear */ = {
+			isa = PBXGroup;
+			children = (
+				C8B93C122960BBA200A68B0F /* EvePattern.swift */,
+				C8B93C142960BBB800A68B0F /* Trunk.swift */,
+				C8B93C162960BBCB00A68B0F /* Eve.swift */,
+				C8B93C182960BBE500A68B0F /* EveSection.swift */,
+			);
+			path = NewYear;
+			sourceTree = "<group>";
+		};
+		C8B93C1A2960BBFB00A68B0F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C8B93C1B2960BC0900A68B0F /* CGFloat.swift */,
+				C8B93C1D2960BC1C00A68B0F /* Color.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C8B93C1F2960BC6400A68B0F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C8B93C202960BC7900A68B0F /* GlowText.swift */,
+				C8B93C222960BC8B00A68B0F /* Snow.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8B93C022960B9E500A68B0F /* Preview Assets.xcassets in Resources */,
+				C8B93C0A2960BB0D00A68B0F /* SnowParticle.sks in Resources */,
 				C8B93BFF2960B9E500A68B0F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +219,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8B93C1C2960BC0900A68B0F /* CGFloat.swift in Sources */,
+				C8B93C192960BBE500A68B0F /* EveSection.swift in Sources */,
+				C8B93C152960BBB800A68B0F /* Trunk.swift in Sources */,
+				C8B93C1E2960BC1C00A68B0F /* Color.swift in Sources */,
+				C8B93C232960BC8B00A68B0F /* Snow.swift in Sources */,
+				C8B93C102960BB7300A68B0F /* ChristmasBall.swift in Sources */,
+				C8B93C172960BBCB00A68B0F /* Eve.swift in Sources */,
 				C8B93BFD2960B9E400A68B0F /* ContentView.swift in Sources */,
+				C8B93C212960BC7900A68B0F /* GlowText.swift in Sources */,
+				C8B93C132960BBA200A68B0F /* EvePattern.swift in Sources */,
 				C8B93BFB2960B9E400A68B0F /* ChristmasApp.swift in Sources */,
+				C8B93C0D2960BB3B00A68B0F /* Garland.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
